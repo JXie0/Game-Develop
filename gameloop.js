@@ -1,10 +1,10 @@
 function gameLoop() {
   update();
   render();
-  requestAnimationFrame (gameloop);
+  requestAnimationFrame (gameLoop);
 }
 function update() {
-]
+}
 
 function render() {
   ctx.clearRect(0,0, canvas.width,
