@@ -1,0 +1,13 @@
+let gravity = 0.5;
+let player= { x: 50, y: 50, vy: 0 };
+function update() {
+  player.vy += gravity;
+  player.y += player.vy;
+
+  if (player.y + player.height >
+canvas.height) {
+player.y = canvas.height
+player.height;
+  player.vy = 0;
+  }
+}
